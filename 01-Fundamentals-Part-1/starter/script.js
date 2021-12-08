@@ -59,4 +59,45 @@ job = 'teacher'
 lastName = 'Brown';
 console.log(lastName);
 */
+//math operators
 
+/* 
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3)
+// 2 ** 3 means 2  to the power of 3 (3 = 2 * 2 * 2)
+
+const firstName = 'Raelyn';
+const lastName = 'Brown';
+console.log(firstName + ' ' + lastName)
+
+//assignment operators
+
+let x = 10 + 5; // 15 
+x += 10; // x = x * 10 (25)
+x += 4; // x = x * 4 = 100
+x++; // x = x + 1 = 
+x--;
+x--;
+console.log(x);
+
+//comparison operator
+
+console.log(ageJonas > ageSarah); // jonas age 46 sarah 18 // booleans
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
+*/
+
+// Operation Precedence
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
