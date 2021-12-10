@@ -33,3 +33,6 @@ console.log(halfPopulation);
 console.log(halfPopulation + 1);
 
 averagePopulation = 33000000;
+console.log(halfPopulation > averagePopulation);
+
+const describtion = 'United States'
