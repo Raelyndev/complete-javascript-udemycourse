@@ -4,7 +4,7 @@
 
 const country = 'United States';
 const continent = "North America";
-let population = '200,000,000';
+let population = 2000000000;
 
 console.log(country, continent, population);
 
@@ -27,6 +27,9 @@ console.log(isIsland, population, country, continent, language);
 
 // Basic Operations
 
+const halfPopulation = (population / 2) / 2;
+console.log(halfPopulation);
 
+console.log(halfPopulation + 1);
 
-     
+averagePopulation = 33000000;
