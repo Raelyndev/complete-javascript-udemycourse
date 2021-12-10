@@ -4,7 +4,7 @@
 
 const country = 'United States';
 const continent = "North America";
-let population = 2000000000;
+let population = 200;
 
 console.log(country, continent, population);
 
@@ -27,12 +27,15 @@ console.log(isIsland, population, country, continent, language);
 
 // Basic Operations
 
-const halfPopulation = (population / 2) / 2;
+const halfPopulation = population / 2;
 console.log(halfPopulation);
 
-console.log(halfPopulation + 1);
+population++
+console.log(population);
 
 averagePopulation = 33000000;
 console.log(halfPopulation > averagePopulation);
 
-const describtion = 'United States'
+const description = country + ' is in ' + continent + ', and its ' + population + ' million people speak '  + language;
+
+console.log(description);
