@@ -1,5 +1,5 @@
 
-
+/*
 // Values and Variables
 
 
@@ -43,4 +43,4 @@ const description = `${country} is in ${continent} and it's ${population} millio
 
 console.log(description);
 
-
+*/
