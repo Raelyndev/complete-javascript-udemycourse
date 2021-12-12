@@ -2,6 +2,7 @@
 
 // Values and Variables
 
+/*
 const country = 'United States';
 const continent = "North America";
 let population = 200;
@@ -39,3 +40,4 @@ console.log(halfPopulation > averagePopulation);
 const description = country + ' is in ' + continent + ', and its ' + population + ' million people speak '  + language;
 
 console.log(description);
+*/
