@@ -1,11 +1,11 @@
 
-/*
+
 // Values and Variables
 
-
+/*
 const country = 'United States';
 const continent = "North America";
-let population = 200;
+let population = 13;
 
 console.log(country, continent, population);
 
@@ -34,7 +34,7 @@ population++;
 
 console.log(population);
 
-const averagePopulation = 33000000;
+const averagePopulation = 33;
 console.log(halfPopulation > averagePopulation);
 
 // Strings and Template Literals
@@ -43,4 +43,9 @@ const description = `${country} is in ${continent} and it's ${population} millio
 
 console.log(description);
 
+if(population >= 33) {
+     console.log(`${country}'s population is above average`);
+} else {
+     console.log(`${country}'s population is ${averagePopulation - population} million below average`);
+}
 */
