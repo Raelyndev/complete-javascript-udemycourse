@@ -159,6 +159,7 @@ markHigherBMI = markBMI > johnBMI;
 
 console.log(markBMI, johnBMI, markHigherBMI);
 */
+
 const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
@@ -175,3 +176,7 @@ console.log(`just a regular string...`);
 console.log('String with \n\
 multiple \n\
 lines');
+
+console.log(`String
+with multiple
+lines`);
