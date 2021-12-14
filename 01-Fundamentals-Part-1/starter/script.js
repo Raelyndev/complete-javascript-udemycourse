@@ -290,7 +290,7 @@ if(favorite === 23) { //23 === 23
 }  else if(favorite === 9) {
      console.log(`9 is also a cool number`);
 } else {
-     console.log(`Number is not 23, 7 or 9`);
+     console.log(`Number is not 23, 7, or 9`);
 }
 
 if(favorite !== 23) console.log(`Why not 23`);
