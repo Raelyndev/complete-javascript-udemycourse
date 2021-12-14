@@ -272,6 +272,8 @@ if(height) {
 }
 */
 
+// equality operators
+
 const age = '18';
 if(age === 18) console.log(`You just became an adult (strict)`);
 if (age == 18) console.log(`You just became an adult (loose)`);
