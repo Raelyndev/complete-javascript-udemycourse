@@ -1,10 +1,9 @@
 
-/*
 // Values and Variables
 
 const country = 'United States';
 const continent = "North America";
-let population = 13;
+let population = ;
 
 console.log(country, continent, population);
 
@@ -55,7 +54,7 @@ console.log('19' - '13' + 17); // 23
 console.log('123' < 57); // boolean false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // 1143
 
-
+/*
 // Equality Operators: == vs. ===
 
 const numNeighbors = prompt(`How many neighbor countries does your country have?`);
@@ -69,5 +68,12 @@ if(numNeighbors === 1) {
 } else {
      console.log(`No borders`);
 }
-
 */
+
+// Logical Operators
+
+if(language === 'English' && population < 50 && !isIsland) {
+     console.log(`You should live in the ${country}`);
+} else {
+     console.log(`This country does not fit your criteria...`);
+}
