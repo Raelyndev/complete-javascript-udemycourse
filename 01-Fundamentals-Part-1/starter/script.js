@@ -372,3 +372,12 @@ if(averageDolphins > averageKoalas && averageDolphins >= 100) {
 
 //Switch Statement
 
+const day = 'monday';
+
+switch(day) {
+     case 'monday': 
+          console.log('Plan course structure');
+          console.log(`Go to coding meet up `)
+     break;
+     case: 'tuesday';
+}
