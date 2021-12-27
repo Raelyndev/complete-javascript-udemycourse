@@ -1,11 +1,11 @@
-/*
+
 
 // Values and Variables
 
 const country = 'United States';
 const continent = "North America";
-let population = ;
-
+let population = 200;
+/*
 console.log(country, continent, population);
 
 
@@ -77,4 +77,10 @@ if(language === 'English' && population < 50 && !isIsland) {
 } else {
      console.log(`This country does not fit your criteria...`);
 }
+
+
+// Conditional/Ternary Operators 
+
+console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`);
+
 */
