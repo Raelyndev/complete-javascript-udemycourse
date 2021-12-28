@@ -35,4 +35,20 @@ console.log(appleOrangeJuice);
 */
 
 
-// 
+// Function Declaration
+
+function calcAge1(birthYear) {
+     return 2021 - birthYear;
+}
+const age1 = calcAge1(2000);
+
+
+// Function Expression
+const calcAge2 = function (birthYear) {
+     return 2020 - birthYear;
+}
+const age2 = calcAge1(1987);
+
+
+console.log(age1, age2);
+

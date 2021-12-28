@@ -83,7 +83,8 @@ if(language === 'English' && population < 50 && !isIsland) {
 
 console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`);
 
-*/
+
+// Functions
 
 function describeCountry(country, population, capitalCity) {
      return `${country} has ${population} million people and it's capital city is ${capitalCity}.`
@@ -94,3 +95,4 @@ const describeFinland = describeCountry('Finland', 1, 'Who knows');
 const describeCanada = describeCountry('Canada', 5, 'Toronto');
 
 console.log(describeUnitedStates, describeFinland, describeCanada);
+*/
