@@ -95,4 +95,34 @@ const describeFinland = describeCountry('Finland', 1, 'Who knows');
 const describeCanada = describeCountry('Canada', 5, 'Toronto');
 
 console.log(describeUnitedStates, describeFinland, describeCanada);
+
+
+
+// Function Delcaration and Expression
+
+// Function Declaration
+
+function percentageOfWorld(population) {
+     return (population / 7900) * 100;
+}
+
+const unitedPop = percentageOfWorld(200);
+const finlandPop = percentageOfWorld(2);
+const canadaPop = percentageOfWorld(20);
+
+console.log(unitedPop, finlandPop, canadaPop);
+
+// Function expression
+
+const percentageOfWorld2 = function (population) {
+     return (population / 7900) * 100;
+}
+
+const unitedPop2 = percentageOfWorld(10);
+const finlandPop2 = percentageOfWorld(500);
+const canadaPop2 = percentageOfWorld(5);
+
+console.log(unitedPop2, finlandPop2, canadaPop2);
 */
+
+

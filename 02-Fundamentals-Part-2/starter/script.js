@@ -32,7 +32,7 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
-*/
+
 
 
 // Function Declaration
@@ -51,4 +51,6 @@ const age2 = calcAge1(1987);
 
 
 console.log(age1, age2);
+*/
+
 
