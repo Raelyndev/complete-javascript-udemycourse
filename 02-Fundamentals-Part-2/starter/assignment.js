@@ -1,11 +1,11 @@
 
+/*
 
 // Values and Variables
 
 const country = 'United States';
 const continent = "North America";
 let population = 200;
-/*
 console.log(country, continent, population);
 
 
@@ -84,3 +84,13 @@ if(language === 'English' && population < 50 && !isIsland) {
 console.log(`${country}'s population is ${population > 33 ? 'above' : 'below'} average`);
 
 */
+
+function describeCountry(country, population, capitalCity) {
+     return `${country} has ${population} million people and it's capital city is ${capitalCity}.`
+}
+
+const describeUnitedStates = describeCountry('United States', 200, 'Dallas');
+const describeFinland = describeCountry('Finland', 1, 'Who knows');
+const describeCanada = describeCountry('Canada', 5, 'Toronto');
+
+console.log(describeUnitedStates, describeFinland, describeCanada);
