@@ -1,12 +1,12 @@
-
 /*
+
 
 // Values and Variables
 
 const country = 'United States';
 const continent = "North America";
 let population = 200;
-console.log(country, continent, population);
+//console.log(country, continent, population);
 
 
 // Data Types
@@ -123,6 +123,15 @@ const finlandPop2 = percentageOfWorld(500);
 const canadaPop2 = percentageOfWorld(5);
 
 console.log(unitedPop2, finlandPop2, canadaPop2);
+
+
+// Arrow Function
+
+const percentageOfWorld3 = population => (population/7900) * 100;
+
+const unitedPop2 = percentageOfWorld3(10);
+const finlandPop2 = percentageOfWorld3(500);
+const canadaPop2 = percentageOfWorld3(5);
+
+console.log(unitedPop2, finlandPop2, canadaPop2);
 */
-
-

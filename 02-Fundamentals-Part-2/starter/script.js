@@ -56,8 +56,8 @@ console.log(age1, age2);
 
 
 // Arrow Function 
-
-const calcAge3 = birthYear => 2037;
+/*
+const calcAge3 = birthYear => - 2037 - birthYear;
 const age3 = calcAge3(2000);
 console.log(age3);
 
@@ -69,3 +69,5 @@ const yearsUntilRetire = (birthYear, firstName) => {
 }
 console.log(yearsUntilRetire(1991, 'Jonas'));
 console.log(yearsUntilRetire(1980, 'bob')); 
+*/
+
