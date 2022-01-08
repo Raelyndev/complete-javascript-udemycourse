@@ -135,3 +135,7 @@ const canadaPop2 = percentageOfWorld3(5);
 
 console.log(unitedPop2, finlandPop2, canadaPop2);
 */
+
+// Functions Calling Other Functions
+
+
