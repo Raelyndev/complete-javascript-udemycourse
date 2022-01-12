@@ -138,4 +138,13 @@ console.log(unitedPop2, finlandPop2, canadaPop2);
 
 // Functions Calling Other Functions
 
+function percentageOfWorld(population) {
+     return (population / 7900) * 100;
+}
 
+const country
+const population 
+return `${country} has ${population} million people, which is about ${percentageOfWorld} of the world`
+
+
+// introduction to arrays
