@@ -134,7 +134,7 @@ const finlandPop2 = percentageOfWorld3(500);
 const canadaPop2 = percentageOfWorld3(5);
 
 console.log(unitedPop2, finlandPop2, canadaPop2);
-*/
+
 
 // Functions Calling Other Functions
 
@@ -148,3 +148,5 @@ return `${country} has ${population} million people, which is about ${percentage
 
 
 // introduction to arrays
+
+*/
