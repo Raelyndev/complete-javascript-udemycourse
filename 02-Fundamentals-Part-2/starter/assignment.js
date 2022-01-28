@@ -146,7 +146,7 @@ const country
 const population 
 return `${country} has ${population} million people, which is about ${percentageOfWorld} of the world`
 
+*/
 
 // introduction to arrays
 
-*/
