@@ -146,7 +146,23 @@ const country
 const population 
 return `${country} has ${population} million people, which is about ${percentageOfWorld} of the world`
 
-*/
 
 // introduction to arrays
 
+
+const populations = [10, 500, 5, 3];
+console.log(populations.length === 4); // returns a boolean // checks if there are 4 element 
+
+function percentageOfWorld1(population) {
+     return (population / 7900) * 100;
+}
+
+const percentages = [
+     percentageOfWorld1 (populations[0]),
+     percentageOfWorld1 (populations[1]),
+     percentageOfWorld1 (populations[2]),
+     percentageOfWorld1 (populations[3])
+];
+console.log(percentages);
+
+*/
