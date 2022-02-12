@@ -288,3 +288,5 @@ console.log(bills, tips, totals);
 
 */
 
+// Introduction to Objects
+

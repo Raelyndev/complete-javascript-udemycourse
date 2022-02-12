@@ -165,4 +165,25 @@ const percentages = [
 ];
 console.log(percentages);
 
+
+
+// Basic Array Operations (Methods)
+
+const neighbors = ['Canada', 'Mexico'];
+
+neighbors.push('Utopia');
+console.log(neighbors);
+
+neighbors.pop();
+console.log(neighbors);
+
+if (neighbors.includes('Germany')) {
+    console.log('Germany is your neighbor!');
+} else {
+     console.log('Probably not a central European country');
+}
+
+neighbors[neighbors.indexOf('Canada')] = 'Maple Country';
+console.log(neighbors);
+
 */
