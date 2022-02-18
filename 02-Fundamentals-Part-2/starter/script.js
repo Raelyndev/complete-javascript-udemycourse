@@ -286,7 +286,55 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(bills, tips, totals);
 
-*/
+
 
 // Introduction to Objects
 
+const jonas = {
+     firstName: 'Jonas',
+     lastName: 'Schidshit',
+     age: 2037 - 1991,
+     job: 'teacher',
+     friends: ['Michael', 'Peter', 'Steven']
+};
+
+
+// Dot vs. Bracket Notation
+
+const jonas = {
+     firstName: 'Jonas',
+     lastName: 'Schidshit',
+     age: 2037 - 1991,
+     job: 'teacher',
+     friends: ['Michael', 'Peter', 'Steven']
+};
+console.log(jonas.lastName);
+console.log(jonas['lastName']);
+
+const nameKey = 'Name';
+console.log(jonas['first' + nameKey]);
+console.log(jonas['last' + nameKey]);
+
+const interestedIn = prompt('What do you want to know about Jonas? Choose between, firstName, lasName, age, job and friends');
+
+if(jonas[interestedIn]) {
+     console.log(jonas[interestedIn]);
+} else {
+     console.log('Wrong request. Choose between, firstName, lasName, age, job and friends');
+};
+
+
+jonas.location = 'Spain';
+jonas['twitter'] = '@blahblah';
+
+console.log(jonas);
+
+// Challenge: Write the following sentence in a dynamic way. Use the proper values for 'Jonas', '3', and 'Michael'.
+// "Jonas has 3 friends, and his best friend is called Michael"
+
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`)
+
+*/
+
+
+// Object Methods

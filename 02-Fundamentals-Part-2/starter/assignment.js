@@ -186,4 +186,29 @@ if (neighbors.includes('Germany')) {
 neighbors[neighbors.indexOf('Canada')] = 'Maple Country';
 console.log(neighbors);
 
+
+
+// Introduction to Objects
+const myCountry = {
+     country: 'America',
+     capital: 'DC',
+     language: 'English',
+     population: 200,
+     neighbors: ['Canada', 'Mexico']
+};
+
+console.log(myCountry);
+
+
+
+// Dot vs. Bracket Notation
+
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbors.length} neighboring countries and a capital called ${myCountry.capital}`);
+
+myCountry.population += 2;
+console.log(myCountry);
+
+myCountry['population'] -= 2;
+console.log(myCountry);
+
 */
