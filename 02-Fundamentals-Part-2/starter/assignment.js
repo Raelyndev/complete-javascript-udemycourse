@@ -212,3 +212,5 @@ myCountry['population'] -= 2;
 console.log(myCountry);
 
 */
+
+// Object Methods
