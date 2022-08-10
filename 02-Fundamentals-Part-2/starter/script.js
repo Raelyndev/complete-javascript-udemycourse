@@ -383,7 +383,7 @@ Let's go back to Mark and John comparing their BMIs! This time, let's use object
 TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 
 GOOD LUCK 😀
-*/
+
 
 const john = {
      fullName: 'John Smith',
@@ -418,3 +418,19 @@ if(mark.bmi > john.bmi) {
      console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName} (${mark.bmi})!`)
 
 };
+*/
+// console.log('Lifting weights repetiion 1');
+// console.log('Lifting weights repetiion 2');
+// console.log('Lifting weights repetiion 3');
+// console.log('Lifting weights repetiion 4');
+// console.log('Lifting weights repetiion 5');
+// console.log('Lifting weights repetiion 6');
+// console.log('Lifting weights repetiion 7');
+// console.log('Lifting weights repetiion 8');
+// console.log('Lifting weights repetiion 9');
+// console.log('Lifting weights repetiion 10');
+
+// For loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep = rep++) {
+     console.log('Lifting weights repetiion 1');
+}
