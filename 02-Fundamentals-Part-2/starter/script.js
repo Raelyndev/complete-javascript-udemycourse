@@ -419,6 +419,7 @@ if(mark.bmi > john.bmi) {
 
 };
 */
+
 // console.log('Lifting weights repetiion 1');
 // console.log('Lifting weights repetiion 2');
 // console.log('Lifting weights repetiion 3');
@@ -431,6 +432,7 @@ if(mark.bmi > john.bmi) {
 // console.log('Lifting weights repetiion 10');
 
 // For loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 10; rep = rep++) {
-     console.log('Lifting weights repetiion 1');
+
+for (let rep = 1; rep <= 10; rep++) {
+     console.log('Lifting weights repetition ${rep}');
 }
