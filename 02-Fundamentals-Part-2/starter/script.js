@@ -418,7 +418,7 @@ if(mark.bmi > john.bmi) {
      console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName} (${mark.bmi})!`)
 
 };
-*/
+
 
 // console.log('Lifting weights repetiion 1');
 // console.log('Lifting weights repetiion 2');
@@ -431,8 +431,26 @@ if(mark.bmi > john.bmi) {
 // console.log('Lifting weights repetiion 9');
 // console.log('Lifting weights repetiion 10');
 
+/////////////////// Iteration: the for Loop
+
 // For loop keeps running while condition is TRUE
 
 for (let rep = 1; rep <= 10; rep++) {
      console.log(`Lifting weights repetition ${rep}`);
+}
+*/
+
+/////////////// Looping Arrays and Breaking and Counting
+
+const jonas = [
+    'Jonas',
+    'Schidshit',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    true
+];
+
+for (let i = 0; i < jonas.length; i++) {
+     console.log(jonas[i]);
 }
