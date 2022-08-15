@@ -438,7 +438,6 @@ if(mark.bmi > john.bmi) {
 for (let rep = 1; rep <= 10; rep++) {
      console.log(`Lifting weights repetition ${rep}`);
 }
-*/
 
 /////////////// Looping Arrays and Breaking and Counting
 
@@ -451,6 +450,65 @@ const jonas = [
     true
 ];
 
+const types = [];
+
 for (let i = 0; i < jonas.length; i++) {
-     console.log(jonas[i]);
+     // reading from jonas array
+     console.log(jonas[i], typeof jonas[i]);
+     //filling types array
+     //types[i] = typeof jonas[i];
+     types.push(typeof jonas[i]);
 }
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+
+const ages = [];
+for (let i = 0; i < years.length; i++ ) {
+     ages.push(2037 - years[i])
+}
+console.log(ages);
+
+// continue and break statement
+console.log('ONLY STRINGS')
+for (let i = 0; i < jonas.length; i++) {
+     if(typeof jonas[i] !== 'string') continue
+
+     console.log(jonas[i], typeof jonas[i]);
+
+}
+
+console.log('BREAK WITH NUMBER')
+for (let i = 0; i < jonas.length; i++) {
+     if(typeof jonas[i] === 'number') break
+
+     console.log(jonas[i], typeof jonas[i]);
+
+}
+
+
+///////Looping Backwards and Loops in Loops
+
+const jonas = [
+     'Jonas',
+     'Schidshit',
+     2037 - 1991,
+     'teacher',
+     ['Michael', 'Peter', 'Steven']
+ ];
+// backwards
+ for (let i = jonas.length - 1; i >= 0; i--) {
+     console.log(i, jonas[i]);
+}
+
+// loops in loops
+
+for (let exercise = 1; exercise < 4; exercise++) {
+     console.log(`--------Startin Exercise ${exercise}`);
+
+     for (let rep = 1; rep < 6; rep++) {
+          console.log(`Lifting weight repetition ${rep}`);
+     }
+}
+ */
